@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Open Sans",sans-serif;
   }
+
   header{
     height: 100px;
     background: #2f3640;
@@ -15,6 +15,27 @@
   header{
     height: 90px;
     background: #2f3640;
+  }
+
+  html { 
+    background: url(../image/main_frame.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .bg button{
+      margin-top: 200px;
+      width: 30vw;
+      background:#b1c3e4 ;
+      margin-left: 30%;
+
+      font-weight: 600;
+      font-size: 3rem;
+      border: none;
+      text-transform: uppercase;
+      box-shadow: 0px 10px 15px gray;
   }
   
   .inner-width{
@@ -89,42 +110,16 @@
     cursor: pointer;
   }
   
-  .container{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    background-color: #7dd0f6;
-}
-
-img{
-    width: 50vw;
-    height: auto;
-    margin-top: 120px;
-    margin-left: 100px;
-}
-
-.container h3{
-  height: 150px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
-    margin: 300px auto 50px;
-}
-
-.container h4{
-  position: absolute;
-  font-size: 1rem;
-  width: 500px;
-  height: 50px;
-  margin-top: 0px;
-  font-family: 'Poppins', sans-serif;
-  text-align: left;
-}
   
   @media screen and (max-width:965px) {
     .menu-toggle-btn{
       display: block !important;
     }
+
+    .bg button{
+        width: 40vw;
+    }
+  
     .navigation_bar_class{
       z-index: 10;
       position: fixed;
@@ -158,38 +153,9 @@ img{
       display: block;
     }
   }
-  
 
-
-  @media (max-width:1504px){
-      .container{
-          flex-direction: column;
-      }
-      .container ing{
-        width: 100vw;
-      }
-
-      .container h3{
-          position: relative;
-          margin-top: -50px;
-          margin-left: 30px;
-      }
-
-      .container h4{
-        position: relative;
-        margin-top: -50px;
-        margin-left: 20px;
+  @media screen and (max-width:700px){
+      .bg button{
+          width: 60vw;
       }
   }
-
-  @media (max-width:800px){
-    .container img{
-      width: 90vw;
-      margin-left: 50px;
-  }
-
-  .container h3{
-      font-size: 3rem;
-  }
-  }
-

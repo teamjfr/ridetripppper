@@ -13,86 +13,36 @@ close=popup.querySelector('.close');
 
     // Append product to the table
     $("#myTable tbody").append("<tr>" +
-        "<td data-label='date'> New </td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+        "<td data-label='date'> 29-07-2021 </td>" +
+        "<td data-label='Time'> 8:30AM </td>" +
+        "<td data-label='To'> Rajshahi </td>" +
+        "<td data-label='From'> Dhaka </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
 
         $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'> New </td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+        "<td data-label='date'> 28-07-2021 </td>" +
+        "<td data-label='Time'> 13:30AM </td>" +
+        "<td data-label='To'> Rajshahi </td>" +
+        "<td data-label='From'> Dhaka </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
 
         $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+        "<td data-label='date'> 16-07-2021 </td>" +
+        "<td data-label='Time'> 8:30AM </td>" +
+        "<td data-label='To'> Rajshahi </td>" +
+        "<td data-label='From'> Jpypurhat </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
 
         $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+        "<td data-label='date'> 29-07-2021 </td>" +
+        "<td data-label='Time'> 8:30AM </td>" +
+        "<td data-label='To'> Rajshahi </td>" +
+        "<td data-label='From'> Dhaka </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='data'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-   /* $("#myTable tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-
-    $("#myTable tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");*/
 };
 
 tripTablemaking();
@@ -107,37 +57,18 @@ function passengerTablemaking() {
 
     // Append product to the table
     $("#myTable1 tbody").append("<tr>" +
-        "<td data-label='Rider Name'> New </td>" +
-        "<td data-label='Contact Number'> New1 </td>" +
-        "<td data-label='Pick Up Point'> New2 </td>" +
-        "<td data-label='Number Of Seats'> New3 </td>" +
+        "<td data-label='Rider Name'> ABC </td>" +
+        "<td data-label='Contact Number'> 123456789 </td>" +
+        "<td data-label='Pick Up Point'> New Market </td>" +
+        "<td data-label='Number Of Seats'> 3 </td>" +
         "</tr>");
 
         $("#myTable1 tbody").append("<tr>" +
-        "<td data-label='Rider Name'> New </td>" +
-        "<td data-label='Contact Number'> New1 </td>" +
-        "<td data-label='Pick Up Point'> New2 </td>" +
-        "<td data-label='Number Of Seats'> New3 </td>" +
+        "<td data-label='Rider Name'> CDE </td>" +
+        "<td data-label='Contact Number'> 12123456789 </td>" +
+        "<td data-label='Pick Up Point'> New Market </td>" +
+        "<td data-label='Number Of Seats'> 1 </td>" +
         "</tr>");
-        $("#myTable1 tbody").append("<tr>" +
-        "<td data-label='Rider Name'> New </td>" +
-        "<td data-label='Contact Number'> New1 </td>" +
-        "<td data-label='Pick Up Point'> New2 </td>" +
-        "<td data-label='Number Of Seats'> New3 </td>" +
-        "</tr>");
-    /*$("#myTable1 tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "</tr>");
-
-    $("#myTable1 tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "</tr>");*/
 };
 
 function detailpop(){

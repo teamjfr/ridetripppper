@@ -13,95 +13,33 @@ close=popup.querySelector('.close');
 
     // Append product to the table
     $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'> New </td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+      "<td data-label='date'> 28-07-2021 </td>" +
+      "<td data-label='Time'> 13:30AM </td>" +
+      "<td data-label='To'> Rajshahi </td>" +
+      "<td data-label='From'> Dhaka </td>" +
         "<td data-label='Number Of Seats'> 5 </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
 
         $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'> New </td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 3 </td>" +
+        "<td data-label='date'> 27-07-2021 </td>" +
+        "<td data-label='Time'> 13:30AM </td>" +
+        "<td data-label='To'> Dhaka </td>" +
+        "<td data-label='From'> Rajshahi </td>" +
+        "<td data-label='Number Of Seats'> 2 </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
 
         $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
+        "<td data-label='date'> 16-07-2021 </td>" +
+        "<td data-label='Time'> 13:30AM </td>" +
+        "<td data-label='To'> Dhaka </td>" +
+        "<td data-label='From'> Rajshahi </td>" +
         "<td data-label='Number Of Seats'> 1 </td>" +
         "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
         "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-        $("#myTable tbody").append("<tr>" +
-        "<td data-label='Date'>29-01-2018</td>" +
-        "<td data-label='Time'> New1 </td>" +
-        "<td data-label='To'> New2 </td>" +
-        "<td data-label='From'> New3 </td>" +
-        "<td data-label='Number Of Seats'> 5 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
-   /* $("#myTable tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");
 
-    $("#myTable tbody").append("<tr>" +
-        "<td> New </td>" +
-        "<td> New1 </td>" +
-        "<td> New2 </td>" +
-        "<td> New3 </td>" +
-        "<td> <button class='btn-details' onclick='detailpop()'>Details</button></td>" +
-        "</tr>");*/
+       
 };
 
 tripTablemaking();
@@ -117,9 +55,9 @@ function passengerTablemaking() {
     // Append product to the table
     $("#myTable1 tbody").append("<tr>" +
         "<td data-label='Driver Image'> <img src='image/driver_image.jpg'> </td>" +
-        "<td data-label='Driver Name'> New1 </td>" +
-        "<td data-label='Contact Number'> New2 </td>" +
-        "<td data-label='Vechicle Number'> New3 </td>" +
+        "<td data-label='Driver Name'> XYZ </td>" +
+        "<td data-label='Contact Number'> 78941518 </td>" +
+        "<td data-label='Vechicle Number'> 6546515 </td>" +
         "</tr>");
 };
 
