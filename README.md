@@ -1,2 +1,3 @@
 # ridetripper
-convenient ride-sharing platform
+Convenient Ride-Sharing Platform
+**Live Site Link:**https://teamjfr.github.io/ridetripper/
