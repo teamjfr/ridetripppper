@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script 
+     src="http://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="image/icon.svg" type="image/x-icon">
+    <title>Passenger Sign In/Up Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style/passengersign.css">
+     </head>
+  <body>
+    <header>
+        <div class="inner-width">
+            <span class="logo">Ridetripper</span>
+            <i class="menu-toggle-btn fas fa-bars"></i>
+            <div class="navigation_bar_class">
+              <a href="./homepage.html"><i class="fas fa-home home"></i> Home</a>
+              <a href="#"><i class="fas fa-user user"></i> Profile</a>
+              <a href="#"><i class="fas fa-car car"></i> Upcoming Trip</a>
+              <a href="./driver_rider.html"><i class="fa fa-sign-in login"></i> Login</a>
+              <a href="#"><i class="fas fa-headset contact"></i> Contact</a>
+          </div>
+            
+        </div>
+      </header> 
+
+    <div class="passenger-sign">
+        <div class="container">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form action="rider_trip.html" class="sign-in-form">
+                    <h2 class="title">Sign In</h2>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email Id">
+                    </div>
+                    <div class="input-field">
+                     <i class="fas fa-lock"></i>
+                     <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn solid">
+                    </form>
+     
+                    <form action="rider_trip.html"  class="sign-up-form">
+                     <h2 class="title">Sign Up</h2>
+                     <div class="input-field">
+                         <i class="fas fa-user"></i>
+                         <input type="text" placeholder="Username">
+                     </div>
+                     <div class="input-field">
+                         <i class="fas fa-envelope"></i>
+                         <input type="text" placeholder="Email">
+                     </div>
+                     <div class="input-field">
+                         <i class="fas fa-phone-alt"></i>
+                         <input type="tel" placeholder="Phone">
+                     </div>
+                     <div class="input-field">
+                         <i class="fas fa-map-marker-alt"></i>
+                         <input type="text" placeholder="Address">
+                     </div>
+                     <div class="input-field">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Password">
+                     </div>
+                     <div class="input-field">
+                         <i class="fas fa-lock"></i>
+                         <input type="password" placeholder="Re-Password">
+                     </div>
+                     <div class="input-field">
+                         <i class="fa fa-picture-o" aria-hidden="true"></i>
+                         <input type="submit" value="Upload Photo" class="botton-img">
+                     </div>
+                     <input type="submit" value="Sign Up"  class="btn solid">
+                     </form>
+                </div>
+            </div>
+     
+            <div class="panels-container">
+     
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>New Here ?</h3>
+                        <button class="btn transparent" id="sign-up-btn">Sign Up</button>
+                        <img src="image/sign.svg" class="image" alt="Sign">
+                    </div>
+                </div>
+     
+                <div class="panel right-panel">
+                 <div class="content">
+                     <h3>Already Registered ?</h3>
+                     <button class="btn transparent" id="sign-in-btn">Sign In</button>
+                     <img src="image/desk.svg" class="image" alt="Desk">
+                 </div>
+             </div>
+     
+            </div>
+            <div class="popup">
+                <div class="wrapper">
+                   <div class="image">
+                      <img src="" alt="" class="preview-img">
+                   </div>
+                   <div class="content">
+                      <div class="icon">
+                         <i class="fas fa-cloud-upload-alt"></i>
+                      </div>
+                      <div class="text">
+                         No file chosen, yet!
+                      </div>
+                   </div>
+                   <div id="cancel-btn">
+                      <i class="fas fa-times"></i>
+                   </div>
+                   <div id="select-btn">
+                      <i class="fas fa-check select"></i>
+                   </div>
+                   <div class="file-name">
+                      File name here
+                   </div>
+                </div>
+                <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+                <input id="default-btn" type="file" hidden>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="src/passengersign.js"></script>
+  </body>
+</html>
